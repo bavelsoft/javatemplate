@@ -8,17 +8,16 @@ Entirely replace this file.
 
 * Maven
 * Dagger
-* Errorprone
-* Nullaway
 * Autovalue
 * Mapstruct
-* Checkstyle
 * Log4j2
 * Mx4j
+* Errorprone
+* Nullaway
+* Checkstyle
 
 ## TODO
 
-* finish the example with grpc
 * actually use mx4j
 * schmoperties after deploying to mavencentral
 * nullaway and protobuf or other platform?
