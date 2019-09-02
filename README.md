@@ -2,8 +2,6 @@
 
 Substitute "javatemplate" with your application name, and "com.bavelsoft" with your company path.
 
-Rename protobuf/src/main/java/JavaTemplate.java
-
 You might want to rename the hellofeature directory and its contents.
 
 Entirely replace this file.
