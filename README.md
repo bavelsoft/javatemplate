@@ -8,13 +8,13 @@ Entirely replace this file.
 
 * Maven
 * Dagger
-* Errorprone
-* Nullaway
 * Autovalue
 * Mapstruct
-* Checkstyle
 * Log4j2
 * Mx4j
+* Errorprone
+* Nullaway
+* Checkstyle
 
 ## TODO
 
