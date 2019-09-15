@@ -5,6 +5,6 @@ import hellofeature.HelloRequestParam;
 import messages.Messages.HelloRequest;
 
 @Mapper(unmappedTargetPolicy=ERROR, unmappedSourcePolicy=IGNORE)
-interface IncomingMapper {
+interface ProtobufIncoming {
 	HelloRequestParam map(HelloRequest message);
 }

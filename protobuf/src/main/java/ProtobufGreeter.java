@@ -14,8 +14,8 @@ import javax.inject.Singleton;
 @Singleton
 class ProtobufGreeter extends GreeterGrpc.GreeterImplBase {
   @Inject Greeter greeter;
-  @Inject OutgoingMapper outgoing;
-  @Inject IncomingMapper incoming;
+  @Inject ProtobufOutgoing outgoing;
+  @Inject ProtobufIncoming incoming;
 
   @Override
   public void sayHello(HelloRequest req, StreamObserver<HelloReply> responseObserver) {

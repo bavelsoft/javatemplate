@@ -6,6 +6,6 @@ import hellofeature.HelloReplyParam;
 import messages.Messages.HelloReply;
 
 @Mapper(unmappedTargetPolicy=IGNORE, unmappedSourcePolicy=ERROR)
-interface OutgoingMapper {
+interface ProtobufOutgoing {
   void map(@MappingTarget HelloReply.Builder out, HelloReplyParam in);
 }
