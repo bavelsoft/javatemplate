@@ -11,7 +11,7 @@
     <errorprone.version>2.3.3</errorprone.version>
     <mx4j.version>3.0.2</mx4j.version>
     <nullaway.version>0.3.0</nullaway.version>
-    <log4j.version>2.12.1</log4j.version>
+    <log4j.version>2.16.0</log4j.version>
     <checkstyle.version>3.1.0</checkstyle.version>
     <javac.version>9+181-r4173-1</javac.version>
   </properties>
